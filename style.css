@@ -1,0 +1,129 @@
+/* Defining global variable for document */
+:root {
+  --Yellow: hsl(47, 88%, 63%);
+  --White: hsl(0, 0%, 100%);
+  --Gray-500: hsl(0, 0%, 42%);
+  --Gray-950: hsl(0, 0%, 7%);
+}
+/* Global style reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--Yellow);
+  min-height: 100vh;
+  text-align: left;
+  font-family: "Figtree", sans-serif;
+}
+.card {
+  /* width: 100%; */
+  max-width: 384px;
+  background-color: var(--White);
+  border-radius: 20px;
+  padding: 24px;
+  border: 1px solid var(--Gray-500);
+  box-shadow: 10px 10px var(--Gray-950);
+}
+.card:hover {
+  box-shadow: 16px 16px var(--Gray-950);
+}
+.card:hover h1 {
+  color: var(--Yellow);
+}
+
+.card-image {
+  /* max-width: 100%; */
+  border-radius: 10px;
+}
+.status {
+  width: 82px;
+  height: 29px;
+  background-color: var(--Yellow);
+  padding: 4px 12px;
+  margin: 20px 10px;
+  border-radius: 4px;
+}
+h1 {
+  color: var(--Gray-950);
+  font-weight: 800;
+}
+.date {
+  font-weight: 500;
+  font-size: 14px;
+}
+p {
+  font-size: 16px;
+  color: var(--Gray-500);
+}
+h1 {
+  padding: 20px 0;
+}
+footer {
+  padding-top: 10px;
+}
+@media (max-width: 375px) {
+  .card {
+    max-width: 327px;
+    /* padding: 16px; */
+  }
+  h1 {
+    font-size: 20px;
+  }
+  p {
+    font-size: 14px;
+  }
+  h5,
+  .date {
+    font-size: 12px;
+  }
+  .card-image {
+    max-width: 100%;
+    /* width: 279px; */
+  }
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-top: 30px;
+}
+.avatar {
+  width: 32px;
+}
+.avatar-name {
+  font-weight: 800;
+  padding-left: 10px;
+  color: var(--Gray-950);
+}
+@media (max-width: 375px) {
+  .card {
+    max-width: 327px;
+    /* padding: 16px; */
+  }
+  h1 {
+    font-size: 20px;
+  }
+  p {
+    font-size: 14px;
+  }
+  h5,
+  .date {
+    font-size: 12px;
+  }
+  .card-image {
+    max-width: 100%;
+    /* width: 279px; */
+  }
+}
+.attribution {
+  font-size: 14px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
