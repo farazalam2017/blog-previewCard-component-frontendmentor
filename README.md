@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Repo](https://github.com/farazalam2017/blog-previewCard-component-frontendmentor)
+- Live Site URL: [Live](https://blog-previewcard-farazalam2017.netlify.app/)
 
 ## My process
 
@@ -80,7 +80,7 @@ I am still struggling to identify how to arrange different section effectively a
 
 ### Useful resources
 
-- [Google](https://www.google.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
+- [Google](https://www.google.com) - This helped me searching the things where i get struck.
 
 ## Author
 
